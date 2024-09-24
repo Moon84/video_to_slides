@@ -4,10 +4,12 @@ Here's the English translation of the summary:
 
 ## Main Functions
 
-1. Extract slides from videos
-2. Perform OCR on extracted slides
-3. Transcribe video audio to text
-4. Generate PowerPoint presentations containing slides and transcribed text
+1. Extract slides from videos：  extract slides based on Python-OpenCV；
+2. Delete repeat slides：
+    - based on opencv differentiation；
+    - Perform OCR（easyOCR） on extracted text from each slides，compare slides， delete continues slides
+5. Transcribe video audio to text by Whisper；seperate text based on timestamp of each slides；
+6. Generate PowerPoint presentations containing slides and transcribed text
 
 ## Software Structure
 
