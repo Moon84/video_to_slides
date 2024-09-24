@@ -1,0 +1,36 @@
+# requirements.txt
+
+# 图像处理
+opencv-python>=4.5.0
+opencv-contrib-python>=4.5.0
+
+# 视频处理
+moviepy>=1.0.3
+
+# OCR文字识别
+easyocr>=1.4.1
+
+# PowerPoint处理
+python-pptx>=0.6.21
+
+# 音频转录
+openai-whisper>=20230314
+
+# 数据处理
+numpy>=1.19.5
+
+# 日期时间处理
+python-dateutil>=2.8.1
+
+# 系统和文件操作
+os
+sys
+time
+
+# JSON处理
+json
+
+# 可能需要的其他依赖
+Pillow>=8.0.0
+torch>=1.7.0
+torchvision>=0.8.0

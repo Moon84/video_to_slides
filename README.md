@@ -1,2 +1,2 @@
-# video_to_slides
-This repo is python application, that aim to transit Presentation video into .pptx file with asr content for fast reading.
+# Video_to_sldies
+ This is python application to transfer presentation record video to .pptx version file with subtitle.
